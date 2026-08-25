@@ -1,0 +1,377 @@
+<#assign language = locale.getLanguage() />
+
+
+<style>
+ol.breadcrumb {
+    background: transparent;
+    margin: 0;
+    padding: 0;
+		font-size:0.9em;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "\002F";
+    top: 6px;
+    margin-left: 2px;
+    background: none;
+}
+.breadcrumb-text-truncate:hover{
+ color: #fdcc08;
+ font-weight: 700;
+ font-family: "Gilroy-Bold";
+}
+
+.breadcrumb-item {
+    margin-right: 0em;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0.7rem;
+}
+.footer-top {
+    margin-top: 0;
+}
+.body-color{
+ background:white;
+}
+.breadcrumb-item.active, .breadcrumb-item .active {
+    color: #fdcc08;
+    font-weight: 700;
+    font-family: "Gilroy-Bold";
+}
+.pageTitle {
+    height: 110px;
+}
+.h1, h1 {
+    font-size: 2rem;
+}
+.titleWrap {
+    margin-bottom: 16px;
+}
+
+.Internal a {
+    color: black;
+}
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+}
+
+.popup-content {
+  margin-bottom: 10px;
+}
+
+.popup-close {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .popup-container {
+    top: 40%;
+    padding: 10px;
+  }
+
+  .popup-close {
+    padding: 5px 10px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .popup-container {
+    top: 30%;
+    padding: 5px;
+  }
+
+  .popup-close {
+    padding: 2px 5px;
+  }
+}
+
+
+</style>
+<script type="text/javascript">
+const units = ['bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+function FormatSize(x){
+  let l = 0, n = parseInt(x, 10) || 0;
+  while(n >= 1024 && ++l){
+      n = n/1024;
+  }
+  return(n.toFixed(n < 10 && l > 0 ? 1 : 0) + ' ' + units[l]);
+}
+</script>
+<main>
+<section class="breadcurmb-container">
+<div aria-label="breadcrumb" class="contentwidth" aria-current= "page">
+    <@liferay.breadcrumbs />
+</div>
+</section>
+<section class="Internal contentwidth" id="maincontent">
+<h1  class="internal-header">
+			  <#if (Text23172828.getData())??>
+	            ${Text23172828.getData()}
+             </#if>
+			  </h1>
+             <div >
+            <div class="title-main-conte">
+              <div >
+			  <#if (Text28527149.getData())??>
+	              <h5>${Text28527149.getData()}</h5>
+              </#if>
+
+
+<ul style="list-style:disc; padding-left:30px;">
+<#assign count = 0>
+<#if FieldsGroup85444007.getSiblings()?has_content>
+  <#list FieldsGroup85444007.getSiblings() as current_parentInputValue>
+
+
+
+<#if (current_parentInputValue.LinkToPage24222143.getFriendlyUrl())?has_content>
+<#if (current_parentInputValue.Text70457464.getData())?has_content>
+<li>
+<a data-senna-off="true" href="${current_parentInputValue.LinkToPage24222143.getFriendlyUrl()}" style="text-decoration: none;" aria-current= "page">
+	${current_parentInputValue.Text70457464.getData()}
+</a>
+</li>
+</#if>
+<#elseif (current_parentInputValue.Upload57273487.getData())?has_content>
+<#if (current_parentInputValue.Text70457464.getData())?has_content>
+<li>
+<#assign mediaUrl = current_parentInputValue.Upload57273487.getData()>
+<#if mediaUrl?contains(".mp4") || mediaUrl?contains(".mov")>
+<a class="popup-link" data-type="video" href="${themeDisplay.getPortalURL()}${mediaUrl}&videoPreview=1&type=mp4" >
+	<#elseif mediaUrl?contains(".mp3") || mediaUrl?contains(".ogg")|| mediaUrl?contains(".mpeg") >
+ <a class="popup-link" data-type="audio" href="${themeDisplay.getPortalURL()}${mediaUrl}" >
+ <#elseif mediaUrl?contains(".pdf") || mediaUrl?contains(".doc") || mediaUrl?contains (".excel")>
+ <a href="${mediaUrl}" target="_blank" style="text-decoration: none;">
+ <#else>
+ this media not support
+ </#if>
+
+	${current_parentInputValue.Text70457464.getData()}
+	<#if (current_parentInputValue.SingleSelection72830639.getData())??>
+	<#if current_parentInputValue.SingleSelection72830639.getData() == "Option01816788">
+	<img style="width:16px; height:16px" alt="" src="/documents/d/guest/pdf" />
+	<#elseif current_parentInputValue.SingleSelection72830639.getData() == "Option22216387">
+	<img style="width:16px; height:16px" alt="" src="/documents/d/guest/excel" />
+	<#elseif current_parentInputValue.SingleSelection72830639.getData() == "Option95214686">
+	<img style="width:16px; height:16px" alt="" src="/documents/d/guest/doc" />
+	</#if>
+  </#if>
+	<#if (current_parentInputValue.SelectFromList65216931.getData())??>
+	<#if current_parentInputValue.SelectFromList65216931.getData() == "Option43540625">
+	<#if  language == 'hi'>
+  (सामग्री अंग्रेजी में है)
+  <#elseif language == 'mr'>
+  (सामग्री इंग्रजीत आहे)
+  <#else>
+  (Content is in English)
+  </#if>
+	<#elseif current_parentInputValue.SelectFromList65216931.getData() == "Option26121577">
+	<#if  language == 'hi'>
+  (सामग्री हिंदी में है)
+  <#elseif language == 'mr'>
+  (आशय हिंदीत आहे)
+  <#else>
+  (Content is in Hindi)
+  </#if>
+	<#elseif current_parentInputValue.SelectFromList65216931.getData() == "Option45972473">
+	<#if  language == 'hi'>
+  (सामग्री मराठी में है)
+  <#elseif language == 'mr'>
+  (मजकूर मराठीत आहे)
+  <#else>
+  (Content is in Marathi)
+  </#if>
+  </#if>
+  </#if>
+	<span id="docsize${count}"></span>
+</a>
+<div class="popup-overlay"></div>
+<div class="popup-container">
+  <div class="popup-content"></div>
+  <button class="popup-close">Close</button>
+</div>
+</li>
+</#if>
+<#else>
+<li>
+<#if (current_parentInputValue.Text70457464.getData())??>
+	${current_parentInputValue.Text70457464.getData()}
+</#if>
+</li>
+</#if>
+<#if (current_parentInputValue.RichText29162360.getData())??>
+	${current_parentInputValue.RichText29162360.getData()}
+</#if>
+
+
+
+
+
+<#list current_parentInputValue.Upload57273487.getData()?split("/") as x>
+    <#if x?counter ==3>
+        <#assign groupId = x?number>
+    </#if>
+    <#if x?counter ==6>
+        <#assign uuId = x?keep_before("?")>
+    </#if>
+</#list>
+
+<script type="text/javascript">
+<#if (fileSize.getSize())??>
+size${count}=FormatSize("${fileSize.getSize()}");
+document.getElementById("docsize${count}").innerHTML ="("+ size${count}+")";
+delete size${count};
+</#if>
+$(document).ready(function() {
+  $('.popup-link').click(function(e) {
+    e.preventDefault();
+
+    var mediaUrl = $(this).attr('href');
+    var mediaType = $(this).data('type');
+
+    if (mediaType === 'audio') {
+      $('.popup-content').html('<audio id="popup-media" controls><source src="' + mediaUrl + '" type="audio/mpeg"></audio>');
+    } else if (mediaType === 'video') {
+      $('.popup-content').html('<video id="popup-media" controls><source src="' + mediaUrl + '" type="video/mp4"></video>');
+    }
+
+    $('.popup-overlay, .popup-container').fadeIn();
+
+    var popupMedia = document.getElementById('popup-media');
+
+    $(popupMedia).on('loadedmetadata', function() {
+      popupMedia.play();
+
+      setTimeout(function() {
+        popupMedia.pause();
+      }, 10000);
+    });
+  });
+
+  $('.popup-close, .popup-overlay').click(function() {
+    var popupMedia = document.getElementById('popup-media');
+    if (popupMedia) {
+      popupMedia.pause();
+    }
+
+    $('.popup-overlay, .popup-container').fadeOut();
+    $('.popup-content').empty();
+  });
+});
+
+
+</script>
+
+
+
+
+
+  <#assign count = count + 1>
+  </#list>
+</#if>
+</ul>
+         <#if  language == 'hi'>
+                       <div style="text-align: right; font-size:20px;" class="updatedate"><br />
+                              <strong><span id="date-output">${.vars['reserved-article-modified-date'].getData()}</span></strong><strong> : पृष्ठ अंतिम अद्यतन तिथि </strong>
+
+															<input type="hidden" id="date-input" value="${.vars['reserved-article-modified-date'].getData()}" />
+                           </div>
+                        <#elseif language == 'mr'>
+                        <div style="text-align: right; font-size:20px;" class="updatedate"><br />
+                              <strong><span id="date-output">${.vars['reserved-article-modified-date'].getData()}</span></strong><strong> : पृष्ठ अंतिम अद्यतन तारीख </strong>
+
+															<input type="hidden" id="date-input" value="${.vars['reserved-article-modified-date'].getData()}" />
+                           </div>
+                        <#else>
+                         <div style="text-align: right; font-size:20px;" class="updatedate"> <br />
+                              <strong>Page Last Update Date: </strong><strong><span id="date-output">${.vars['reserved-article-modified-date'].getData()}</span></strong>
+
+															<input type="hidden" id="date-input" value="${.vars['reserved-article-modified-date'].getData()}" />
+                           </div>
+
+                        </#if>
+
+
+
+    </div>
+            </div>
+          </div>
+
+
+			<script>
+const dateString = $("#date-input").val();
+//const date = new Date(dateString);
+
+const englishDateString = convertHindiDateToEnglish(dateString);
+const date = new Date(englishDateString);
+
+const day = date.getDate();
+const month = date.getMonth() + 1;
+const year = date.getFullYear();
+const formattedDate =day+"/"+month+"/"+year;
+console.log(formattedDate);
+$("#date-output").html(formattedDate);
+
+
+// Function to convert Hindi date string to English
+function convertHindiDateToEnglish(hindiDate) {
+
+	  // Hindi to English mappings for days and months
+const hindiToEnglishDays = {
+    "रवि": "Sun",
+    "सोम": "Mon",
+    "मंगल": "Tue",
+    "बुध": "Wed",
+    "गुरु": "Thu",
+    "शुक्र": "Fri",
+    "शनि": "Sat"
+};
+
+const hindiToEnglishMonths = {
+    "जनवरी": "January",
+    "फ़रवरी": "February",
+    "मार्च": "March",
+    "अप्रैल": "April",
+    "मई": "May",
+    "जून": "June",
+    "जुलाई": "July",
+    "अगस्त": "August",
+    "सितंबर": "September",
+    "अक्‍तूबर": "October",
+    "नवंबर": "November",
+    "दिसंबर": "December"
+};
+
+    // Replace Hindi day names with English
+    Object.keys(hindiToEnglishDays).forEach(hindiDay => {
+        hindiDate = hindiDate.replace(hindiDay, hindiToEnglishDays[hindiDay]);
+    });
+
+    // Replace Hindi month names with English
+    Object.keys(hindiToEnglishMonths).forEach(hindiMonth => {
+        hindiDate = hindiDate.replace(hindiMonth, hindiToEnglishMonths[hindiMonth]);
+    });
+
+    // Return the modified English date string
+    return hindiDate;
+}
+</script>

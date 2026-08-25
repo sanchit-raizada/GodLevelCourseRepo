@@ -1,0 +1,61 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                  HTML TEXT OBJECTS                           ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  COMMAND  │  FULL FORM  │  WHAT IT DOES                      ║
+║  ─────────┼─────────────┼─────────────────────────────────── ║
+║  it       │  Inner Tag  │  Tag ke ANDAR ka content          ║
+║  at       │  Around Tag │  Pura tag + content               ║
+║  cit      │  Change IT  │  Inner content change             ║
+║  cat      │  Change AT  │  Around tag change                ║
+║  vit      │  Visual IT  │  Visual select inner              ║
+║  vat      │  Visual AT  │  Visual select around             ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════════════════════════════════════════╗
+║                  INDENTATION COMMANDS                        ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  COMMAND  │  WHAT IT DOES                                    ║
+║  ─────────┼───────────────────────────────────────────────── ║
+║  >>       │  Current line indent (right)                    ║
+║  <<       │  Current line dedent (left)                     ║
+║  >it      │  Indent inner tag (content)                     ║
+║  >at      │  Indent around tag (poora tag)                  ║
+║  =it      │  Auto-indent inner tag (beautify)               ║
+║  =at      │  Auto-indent around tag                         ║
+║  gg=G     │  Auto-format entire file                        ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+╔═══════════════════════════════════════════════════════════════╗
+║                  TAG NAVIGATION                              ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  COMMAND  │  WHAT IT DOES                                    ║
+║  ─────────┼───────────────────────────────────────────────── ║
+║  [<       │  Previous opening tag                            ║
+║  ]<       │  Next opening tag                               ║
+║  [%       │  Previous matching tag                           ║
+║  ]%       │  Next matching tag                              ║
+║  %        │  Matching tag (with matchit)                    ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║                  SURROUND COMMANDS (vim-surround)            ║
+╠═══════════════════════════════════════════════════════════════╣
+║                                                               ║
+║  COMMAND  │  WHAT IT DOES                                    ║
+║  ─────────┼───────────────────────────────────────────────── ║
+║  ysiw<>   │  Surround word with tag                         ║
+║  ys       │  Surround visual selection                      ║
+║  cs"'     │  Change " to '                                  ║
+║  cs'<h1>  │  Change quotes to tag                           ║
+║  dst      │  Delete surrounding tag                         ║
+║  cst      │  Change surrounding tag                         ║
+║  ds"      │  Delete quotes                                  ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝

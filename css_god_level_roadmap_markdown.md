@@ -7,11 +7,13 @@ Ye roadmap beginner → advanced → elite frontend engineer level tak designed 
 ---
 
 # PHASE 0 — Foundation Strong Karo
+
 _(2–3 weeks)_
 
 Yeh sab bina soche aana chahiye.
 
 ## Core Basics
+
 - selectors
 - combinators
 - pseudo classes
@@ -29,6 +31,7 @@ Yeh sab bina soche aana chahiye.
 - typography basics
 
 ## Box Model
+
 - margin
 - padding
 - border
@@ -36,12 +39,14 @@ Yeh sab bina soche aana chahiye.
 - border-box
 
 ## Display System
+
 - block
 - inline
 - inline-block
 - none
 
 ## Positioning
+
 - relative
 - absolute
 - fixed
@@ -50,12 +55,15 @@ Yeh sab bina soche aana chahiye.
 - stacking context
 
 ## Overflow
+
 - overflow-x/y
 - scroll behavior
 - hidden vs clip
 
 ## Practice
+
 Banaye:
+
 - navbar
 - card
 - pricing section
@@ -65,12 +73,15 @@ Banaye:
 ---
 
 # PHASE 1 — Layout Mastery
+
 _(Most important phase)_
 
 ## Flexbox Complete
+
 Sab kuch bina cheat sheet ke aana chahiye.
 
 ### Must Know
+
 - flex-direction
 - justify-content
 - align-items
@@ -81,6 +92,7 @@ Sab kuch bina cheat sheet ke aana chahiye.
 - shorthand
 
 ### Advanced
+
 - equal height layouts
 - sticky footer
 - holy grail layout
@@ -90,9 +102,11 @@ Sab kuch bina cheat sheet ke aana chahiye.
 ---
 
 ## CSS Grid Complete
+
 Yahi pro level ka entry point hai.
 
 ### Must Know
+
 - grid-template-columns
 - rows
 - repeat()
@@ -103,6 +117,7 @@ Yahi pro level ka entry point hai.
 - auto-fill
 
 ### Advanced Grid
+
 - named lines
 - grid-template-areas
 - implicit vs explicit grid
@@ -110,7 +125,9 @@ Yahi pro level ka entry point hai.
 - layered layouts
 
 ### Practice
+
 Banaye:
+
 - dashboard
 - pinterest layout
 - admin panel
@@ -119,26 +136,32 @@ Banaye:
 ---
 
 # PHASE 2 — Responsive Design GOD LEVEL
+
 _(Extremely Important)_
 
 ## Media Queries
+
 - mobile first
 - desktop first
 - breakpoints
 
 ## Responsive Units
+
 - clamp()
 - min()
 - max()
 
 ## Responsive Typography
+
 - fluid typography
 - fluid spacing systems
 
 ## Container Queries
+
 Modern CSS ka huge topic.
 
 ## Responsive Patterns
+
 - responsive navbar
 - responsive cards
 - responsive grids
@@ -147,25 +170,30 @@ Modern CSS ka huge topic.
 ---
 
 # PHASE 3 — CSS Architecture
+
 _(Industry level skill)_
 
 ## Naming Systems
+
 - BEM
 - utility-first thinking
 
 ## CSS Organization
+
 - reset.css
 - variables.css
 - components.css
 - layout.css
 
 ## Scalable CSS
+
 - reusable systems
 - design tokens
 - spacing systems
 - typography systems
 
 ## Learn
+
 - SCSS/SASS
 - nesting
 - mixins
@@ -174,31 +202,37 @@ _(Industry level skill)_
 ---
 
 # PHASE 4 — Visual Mastery
+
 _(Design engineer level)_
 
 ## Typography Deep Dive
+
 - line-height
 - letter-spacing
 - vertical rhythm
 - font rendering
 
 ## Shadows
+
 - layered shadows
 - neumorphism
 - glassmorphism
 
 ## Gradients
+
 - linear-gradient
 - radial-gradient
 - conic-gradient
 
 ## Advanced Backgrounds
+
 - blend modes
 - masks
 - clipping
 - overlays
 
 ## Modern UI Effects
+
 - backdrop-filter
 - blur
 - frosted glass
@@ -207,14 +241,17 @@ _(Design engineer level)_
 ---
 
 # PHASE 5 — Animation MASTER
+
 _(God tier frontend feel)_
 
 ## Transitions
+
 - easing
 - timing functions
 - delays
 
 ## Transform
+
 - translate
 - scale
 - rotate
@@ -222,11 +259,13 @@ _(God tier frontend feel)_
 - transform-origin
 
 ## Keyframes
+
 - animation-fill-mode
 - direction
 - iteration-count
 
 ## Advanced Animation
+
 - stagger animation
 - page transitions
 - loaders
@@ -234,11 +273,14 @@ _(God tier frontend feel)_
 - parallax
 
 ## Learn Physics Feeling
+
 - cubic-bezier
 - spring feel
 
 ### Practice
+
 Banaye:
+
 - animated navbar
 - hover systems
 - button systems
@@ -249,26 +291,31 @@ Banaye:
 # PHASE 6 — Modern CSS SUPER POWERS
 
 ## CSS Variables
+
 - themes
 - dark mode
 - runtime updates
 
 ## Functions
+
 - calc()
 - clamp()
 - min()
 - max()
 
 ## Logical Properties
+
 - inline-size
 - block-size
 
 ## New Selectors
+
 - :is()
 - :where()
 - :has()
 
 ## Scroll Features
+
 - scroll snapping
 - smooth scrolling
 - scroll animations
@@ -278,17 +325,20 @@ Banaye:
 # PHASE 7 — Accessibility + Real Engineering
 
 ## Accessibility
+
 - contrast
 - focus states
 - keyboard navigation
 - reduced motion
 
 ## Performance
+
 - repaint
 - reflow
 - composite layers
 
 ## Rendering Understanding
+
 - browser rendering pipeline
 - layout calculation
 - paint process
@@ -300,6 +350,7 @@ Tu linux/kernel padhta hai toh browser rendering samajh jayega deeply.
 # PHASE 8 — CSS Internals (Elite Level)
 
 ## Learn Deeply
+
 - cascade algorithm
 - stacking context internals
 - formatting context
@@ -307,11 +358,13 @@ Tu linux/kernel padhta hai toh browser rendering samajh jayega deeply.
 - compositing
 
 ## Browser Engine Concepts
+
 - style calculation
 - layout tree
 - paint tree
 
 ## Learn:
+
 - why margin collapse happens
 - why z-index fails
 - why height:100% fails
@@ -326,6 +379,7 @@ Yahi “god level” ka actual difference hota hai.
 ## Build Full Projects
 
 ### Must Build
+
 - SaaS landing page
 - admin dashboard
 - banking UI
@@ -334,6 +388,7 @@ Yahi “god level” ka actual difference hota hai.
 - animations showcase
 
 ## Clone
+
 - Stripe
 - Apple
 - Airbnb
@@ -345,9 +400,11 @@ Clone karte waqt inspect panel se seekh.
 ---
 
 # PHASE 10 — Utility Frameworks
+
 _(Baad me)_
 
 ## Learn
+
 - Tailwind CSS
 - shadcn/ui styling understanding
 
@@ -358,6 +415,7 @@ Par pehle raw CSS strong kar.
 # PHASE 11 — CSS + JS Integration
 
 ## Important
+
 - dynamic classes
 - state driven UI
 - animations with JS
@@ -368,10 +426,15 @@ Par pehle raw CSS strong kar.
 # PHASE 12 — Absolute GOD TIER Topics
 
 ## Houdini
+
 ## CSS Custom Paint API
+
 ## Advanced SVG Styling
+
 ## 3D transforms
+
 ## Motion systems
+
 ## Web animations API
 
 Yeh sab bahut advanced hai.
@@ -383,15 +446,19 @@ Yeh sab bahut advanced hai.
 ## Roz Kya Karna Hai
 
 ### 1 Hour
+
 Concept learning
 
 ### 2 Hour
+
 UI building
 
 ### 1 Hour
+
 Clone existing websites
 
 ### 30 Min
+
 Inspect websites
 
 ---
@@ -401,12 +468,15 @@ Inspect websites
 ## Har Topic Ke 3 Steps
 
 ### Step 1
+
 Concept samjho
 
 ### Step 2
+
 Khud mini project banao
 
 ### Step 3
+
 Without tutorial dubara banao
 
 ---
@@ -414,24 +484,30 @@ Without tutorial dubara banao
 # MOST IMPORTANT THINGS
 
 ## 1. Flexbox + Grid
+
 Yahi backbone hai.
 
 ## 2. Spacing Sense
+
 Good UI = spacing.
 
 ## 3. Typography
+
 Average aur elite UI ka difference.
 
 ## 4. Consistency
+
 Random values mat use karo.
 
 Bad:
+
 ```css
 padding: 13px;
 margin: 17px;
 ```
 
 Good:
+
 ```css
 spacing scale:
 4
@@ -448,18 +524,22 @@ spacing scale:
 # RESOURCES
 
 ## Documentation
+
 - MDN CSS Docs
 - CSS Tricks
 
 ## Practice
+
 - Frontend Mentor
 - CodePen
 
 ## Learn Layouts
+
 - Flexbox Froggy
 - Grid Garden
 
 ## Inspiration
+
 - Dribbble
 - Awwwards
 
@@ -468,6 +548,7 @@ spacing scale:
 # FINAL TARGET
 
 Jab tu:
+
 - kisi bhi layout ko dekh kar bana sake
 - responsive bina struggle ke likh sake
 - animation smooth bana sake
@@ -477,10 +558,10 @@ Jab tu:
 Tab tu advanced hai.
 
 Aur jab:
+
 - tu design systems bana de
 - reusable architecture likhe
 - rendering/performance samjhe
 - browser behavior predict kare
 
 Tab “god level” start hota hai.
-

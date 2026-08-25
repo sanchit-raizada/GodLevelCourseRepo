@@ -1,0 +1,116 @@
+<p>​​​​​​​
+<style type="text/css">.titleWrap .title-main-conte ol, .titleWrap .title-main-conte ul {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+  .titleWrap .title-main-conte h4 {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+  .titleWrap .title-main-conte h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+  .titleWrap .title-main-conte h5 {
+    font-size: 1em;
+    margin: 10px 0;
+font-weighth:bold
+}
+</style>
+</p>
+
+<div tabindex="0">
+<h3 tabindex="0"><strong>NRI Centre</strong></h3>
+
+<p>Welcome to NRI Centre. We have made an attempt here to furnish important features applicable to Non-Resident Indians (NRI) and People of Indian Origin having foreign nationality and residing in foreign countries ( FNIOs).</p>
+ 
+
+<h4><strong>Non-Resident Indian / Foreign National Of Indian Origin/Oci:</strong></h4>
+
+<h5><strong>A. NON-RESIDENT INDIAN</strong></h5>
+
+<ol style="list-style:disc;">
+	<li>A non-resident Indian is a citizen of India temporarily residing in the country of his/her present residence and holding a valid passport issued by the Government of India.</li>
+	<li>NRI should not be a green card holder. He/She should not have applied for or planning to apply in the near future for acquiring citizenship of his /her present country of residence or any other country.</li>
+	<li>It is clarified that People of Indian Origin having foreign nationality and residing in foreign countries FNIOs/ Green card holders are not considered as NRIs for the purpose of allowing insurance.</li>
+	<li>Policies are issued in Indian Rupees only. Our Branches and Joint Venture Companies ( refer to option ; <strong>‘Associates’</strong> on main page for details ) issue policies in their local currencies. e.g. Our U.K. Branch issues policies in Sterling Pound currency.</li>
+	<li>NRIs are allowed insurance on their visit to India where all formalities are completed during their stay in India. In such cases they would be treated at par with Indian Lives for the purpose of allowing insurance.</li>
+	<li>NRIs may also obtain insurance cover from their present country of residence where all formalities are completed in their present country of residence and this process is called <strong>‘Mail Order Business’</strong>.</li>
+	<li>Minimum Sum Assured allowed would be Rs. 10 lakhs and maximum would depend on conditions of insurability. However, under mail order business, maximum sum assured would be limited to Rs. Three Crore only.</li>
+	<li>Proof of income in the form of income tax returns, copy of employment contract where emoluments are mentioned, Certificate from Chartered Accountant, Personal Financial Questionnaire (PFQ) etc. would be required if the sum assured is high or if the proposal is submitted through Mail Order Business.</li>
+	<li>All types of plans are allowed subject to the conditions that.</li>
+	<li>Critical Illness Benefit is not granted.</li>
+	<li>Term Rider Benefit would be restricted to certain limit of Sum assured.</li>
+	<li>Sum Assured would be restricted in respect of term insurance plans.</li>
+	<li>NRIs may obtain insurance cover under our <strong>Non-Medical ((Preferred and Special)</strong> scheme subject to certain restrictions, some of which are listed below:</li>
+	<li>Applicable if insurance is obtained during visit to India or through Mail Order Business when LIC Agents visit the country of residence of NRI for completing the necessary formalities.</li>
+	<li>If the proposer has not visited India and the Agent has also not visited the country of residence of NRI, an additional facility to complete the proposal on the basis of Video Medical is also available subject to certain terms and conditions.</li>
+	<li>Maximum age at entry would be 50 years.</li>
+	<li>Plans with high risk cover and term rider benefits would not be allowed.</li>
+	<li>The proposer should be employed in Government or reputed commercial firm or should be a professional such as Chartered Accountant, Doctor, Teacher, Lawyer, Accountant, Engineer, etc.</li>
+	<li>This scheme is applicable to those NRIs who are residing in Group V countries only. (See <strong>Annexure-IV</strong> for group details).</li>
+</ol>
+
+<ul>
+	<li>Rules regarding insurance under medical scheme through ‘Mail Order Business’ are given in <strong>Annexure-I</strong>.</li>
+</ul>
+
+<ol class="nri" style="list-style:disc;">
+	<li>The rules regarding granting insurance cover to NRIs during their visit to India would be similar to those applicable to Indian Lives. Help of a local agent/ development officer / branch office of LIC may be obtained. Addresses of our Offices can be obtained from the option:<strong>‘locator’</strong>.</li>
+	<li>The main papers required to obtain insurance cover would be</li>
+	<li>Prescribed proposal form depending on the type of policy selected.</li>
+	<li>NRI Questionnaire. <strong>(Annexure-II)</strong></li>
+	<li>Medical Report (not applicable if the proposal is under non-medical scheme)</li>
+	<li>Special Medical Reports, if called for.</li>
+	<li>Attested copy of Passport.</li>
+	<li>Proof of age and income.</li>
+	<li>Initial Deposit equivalent to Installment Premium under the proposed plan of insurance.</li>
+	<li>A reference may please be made to <strong>Annexure-IV </strong>for details such as Residence Extra and other restrictive conditions.</li>
+</ol>
+&nbsp;
+
+<h5><strong>B. Overseas Citizen of India(OCI) / People of Indian Origin having Foreign Nationality and residing in Foreign Countries(FNIOs/ Green Card holders/ OCI)</strong></h5>
+
+<ol class="nri" style="list-style:disc;">
+	<li>Mail order business will be allowed only to those registered as Overseas Citizen of India and have valid OCI Card</li>
+	<li>Policy will be issued in Indian Currency</li>
+	<li>Report by designated LIC agents is compulsory.</li>
+	<li>Claim would be paid in India in Indian Currency only.</li>
+	<li>Please refer to <strong>Annexure-IV</strong> for details such as residence extra and other restrictive conditions and Plans allowed, Maximum sum assured etc.</li>
+	<li>Other rules are same as NRIs.</li>
+</ol>
+&nbsp;
+
+<h5><strong>C. Foreign Account Tax Compliance Act (FATCA) &amp; Common Reporting Standards (CRS)</strong></h5>
+
+<ol class="nri" style="list-style:disc;">
+	<li>Post listing LIC is a Reporting Financial Institution under section 285BA of the Income tax Act, 1961 (‘the Act’) and is required to identify accountholders after carrying out the due diligence process as per Rules 114F to 114H of the Income-tax Rules, 1962 (‘the Rules’) published vide Notification No. S.O. 2155(E) dated 7 August 2015 read with Guidance Note dated 30 November 2016 on these Rules. It has therefore become mandatory to capture the Tax Residency status of policyholders. Accordingly, all our policyholders are requested to inform their Tax Residency Status by filing the Self Certification Form. Kindly logon to our customer Portal and complete the Self certification form.</li>
+	<li><a href="/documents/d/guest/final-lic-self-certfication-individuals-23-april-2023-1">Click here for download the forms&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+</ol>
+&nbsp;
+
+<p><strong>Other Points</strong><br />
+Existing policies taken while in India will continue in Indian Currency even after the life assured moves to foreign countries as NRI. Please keep the concerned servicing branch of LIC informed about your new status i.e. NRI and your new address. Please submit to them NRI questionnaire form duly filled and signed. (See <strong>Annexure-II</strong>). You may continue to pay premiums through various approved channels to LIC.</p>
+&nbsp;
+
+<h5><strong>ANNEXURES:</strong></h5>
+
+<ul style="list-style:disc;">
+	<li>Rules regarding mail order business - <a href="/documents/d/guest/annexure-i-" target="_blank">Annexure - I&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+	<li>NRI Questionnaire - <a href="/documents/d/guest/non-resident-indian-questionnaire" target="_blank">Annexure - II&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+	<li>Life insurance Memorandum - <a href="/documents/d/guest/annexure-iii-" target="_blank">Annexure - III&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+	<li>Revised Residence groups - <a href="/documents/d/guest/annexure-iv-" target="_blank">Annexure - IV&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+</ul>
+&nbsp;
+
+<h4><strong>EXEMPTION OF GST ON PAYMENT OF RENEWAL PREMIUM FOR ELIGIBLE NRI POLICYHOLDERS</strong></h4>
+
+<p>Eligible NRI/ OCI/ FNIO Policyholders can avail exemption of GST on payment of Renewal Premium subject to fulfilment of certain conditions. The complete guide and the relevant annexures can be downloaded from below:</p>
+
+<ol style="list-style:disc;">
+	<li><a href="/documents/d/guest/guide-to-policyholders">Guide to Policyholders&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+	<li><a href="/documents/d/guest/annexure-i-1-">Annexure-I&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+	<li><a href="/documents/d/guest/annexure-ii-1-">Annexure-II&nbsp;<img alt="attached file is in PDF Document Format" height="16" src="/documents/d/guest/pdf" width="16" /></a></li>
+</ol>
+<br />
+ </div>

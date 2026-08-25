@@ -1,0 +1,54 @@
+      button {
+          background-color: royalblue;
+          padding: 0.5em 2em;
+          border: none;
+          border-radius: 0.5em;
+          box-shadow: 0 0.2em 0 rgb(17, 50, 148);
+          color: white;
+          overflow: hidden;
+          text-transform: uppercase;
+          position: relative;
+          cursor: pointer;
+      }
+
+      button::before {
+          content: "";
+          position: absolute;
+          left: -50%;
+          top: 0;
+          width: 50%;
+          height: 100%;
+          transform: skewX(20deg);
+          background-color: rgba(255, 255, 255, 0.226);
+          opacity: 0.5;
+          transition: 0.5s ease-in-out;
+      }
+
+      button:hover::before {
+          left: 120%;
+      }
+
+      button:active {
+          transform: translateY(4px);
+          box-shadow: 0px 0.1em 0px rgb(17, 50, 148);
+      }
+
+      /* samll button */
+      button.small {
+          font-size: 10px;
+      }
+
+      /* medium button */
+      button.medium {
+          font-size: 14px;
+      }
+
+      /* large button */
+      button.large {
+          font-size: 18px;
+      }
+
+      /* extra large */
+      button.extra-large {
+          font-size: 24px;
+      }
