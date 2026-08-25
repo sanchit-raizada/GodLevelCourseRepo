@@ -6,16 +6,16 @@
 
 ## Emmet Expansions (Insert Mode → Tab)
 
-| Shortcut | Result |
-|---|---|
-| `!` + Tab | Full HTML5 boilerplate |
-| `div.container` + Tab | `<div class="container"></div>` |
-| `ul>li*3` + Tab | `<ul>` with 3 `<li>` children |
-| `p*3>span` + Tab | 3 paragraphs each with a `<span>` |
-| `a{click here}` + Tab | `<a href="">click here</a>` |
-| `form>input[type=text]` + Tab | form with text input |
-| `div#app>header+main+footer` + Tab | semantic layout skeleton |
-| `nav>ul>li.nav__item*4>a{link $}` + Tab | nav with 4 numbered links |
+| Shortcut                                | Result                            |
+| --------------------------------------- | --------------------------------- |
+| `!` + Tab                               | Full HTML5 boilerplate            |
+| `div.container` + Tab                   | `<div class="container"></div>`   |
+| `ul>li*3` + Tab                         | `<ul>` with 3 `<li>` children     |
+| `p*3>span` + Tab                        | 3 paragraphs each with a `<span>` |
+| `a{click here}` + Tab                   | `<a href="">click here</a>`       |
+| `form>input[type=text]` + Tab           | form with text input              |
+| `div#app>header+main+footer` + Tab      | semantic layout skeleton          |
+| `nav>ul>li.nav__item*4>a{link $}` + Tab | nav with 4 numbered links         |
 
 ---
 
@@ -23,103 +23,103 @@
 
 ### Add Surrounding
 
-| Shortcut | What it does |
-|---|---|
-| `ysst` | Wrap line in HTML tag (prompts for tag name) |
-| `ysiw"` | Wrap word in double quotes |
-| `ysiw<` | Wrap word in HTML tag |
-| `ys$<` | Wrap to end of line in HTML tag |
-| `ysip<` | Wrap whole paragraph in HTML tag |
-| `V` then `S<div>` | Visual select line → wrap in `<div>` |
+| Shortcut          | What it does                                 |
+| ----------------- | -------------------------------------------- |
+| `ysst`            | Wrap line in HTML tag (prompts for tag name) |
+| `ysiw"`           | Wrap word in double quotes                   |
+| `ysiw<`           | Wrap word in HTML tag                        |
+| `ys$<`            | Wrap to end of line in HTML tag              |
+| `ysip<`           | Wrap whole paragraph in HTML tag             |
+| `V` then `S<div>` | Visual select line → wrap in `<div>`         |
 
 ### Change Surrounding
 
-| Shortcut | What it does |
-|---|---|
-| `cs"'` | Change `"quotes"` → `'quotes'` |
+| Shortcut      | What it does                      |
+| ------------- | --------------------------------- |
+| `cs"'`        | Change `"quotes"` → `'quotes'`    |
 | `cst` + `div` | Change surrounding tag to `<div>` |
-| `cs(<` | Change `(parens)` to HTML tag |
+| `cs(<`        | Change `(parens)` to HTML tag     |
 
 ### Delete Surrounding
 
-| Shortcut | What it does |
-|---|---|
-| `dst` | Delete surrounding HTML tag (keeps content) |
-| `ds"` | Delete surrounding double quotes |
-| `ds{` | Delete surrounding curly braces |
+| Shortcut | What it does                                |
+| -------- | ------------------------------------------- |
+| `dst`    | Delete surrounding HTML tag (keeps content) |
+| `ds"`    | Delete surrounding double quotes            |
+| `ds{`    | Delete surrounding curly braces             |
 
 ---
 
 ## nvim-ts-autotag
 
-| Behavior | What happens |
-|---|---|
-| Type `<div>` | Closing `</div>` auto-inserted |
+| Behavior           | What happens                      |
+| ------------------ | --------------------------------- |
+| Type `<div>`       | Closing `</div>` auto-inserted    |
 | Rename opening tag | Closing tag auto-renames to match |
 
 ---
 
 ## Text Objects — Inside / Around
 
-| Shortcut | What it does |
-|---|---|
-| `cit` | Change inside HTML tag |
-| `dit` | Delete inside HTML tag |
-| `vit` | Visual select inside HTML tag |
-| `dat` | Delete around tag (tag + content) |
-| `ci"` | Change inside double quotes |
-| `ci'` | Change inside single quotes |
-| `ci{` | Change inside curly braces |
-| `ci[` | Change inside square brackets |
-| `ci(` | Change inside parentheses |
-| `ci<` | Change inside `< >` — great for JSX class names |
-| `di{` | Delete inside curly braces |
-| `va{` | Visual select around braces (includes braces) |
+| Shortcut | What it does                                    |
+| -------- | ----------------------------------------------- |
+| `cit`    | Change inside HTML tag                          |
+| `dit`    | Delete inside HTML tag                          |
+| `vit`    | Visual select inside HTML tag                   |
+| `dat`    | Delete around tag (tag + content)               |
+| `ci"`    | Change inside double quotes                     |
+| `ci'`    | Change inside single quotes                     |
+| `ci{`    | Change inside curly braces                      |
+| `ci[`    | Change inside square brackets                   |
+| `ci(`    | Change inside parentheses                       |
+| `ci<`    | Change inside `< >` — great for JSX class names |
+| `di{`    | Delete inside curly braces                      |
+| `va{`    | Visual select around braces (includes braces)   |
 
 ---
 
 ## Fast Movement
 
-| Shortcut | What it does |
-|---|---|
-| `f<` | Jump to next `<` on line |
-| `;` | Repeat last `f` / `t` jump forward |
-| `,` | Repeat last `f` / `t` jump backward |
-| `%` | Jump between matching HTML tags / brackets |
-| `W` / `B` | Jump by WORD (skips punctuation) |
-| `*` | Jump to next occurrence of word under cursor |
-| `#` | Jump to previous occurrence of word under cursor |
-| `g;` | Go back to last edit position |
-| `ctrl-o` | Jump back in jump list |
-| `ctrl-i` | Jump forward in jump list |
-| `[[` / `]]` | Jump between sections / functions |
+| Shortcut    | What it does                                     |
+| ----------- | ------------------------------------------------ |
+| `f<`        | Jump to next `<` on line                         |
+| `;`         | Repeat last `f` / `t` jump forward               |
+| `,`         | Repeat last `f` / `t` jump backward              |
+| `%`         | Jump between matching HTML tags / brackets       |
+| `W` / `B`   | Jump by WORD (skips punctuation)                 |
+| `*`         | Jump to next occurrence of word under cursor     |
+| `#`         | Jump to previous occurrence of word under cursor |
+| `g;`        | Go back to last edit position                    |
+| `ctrl-o`    | Jump back in jump list                           |
+| `ctrl-i`    | Jump forward in jump list                        |
+| `[[` / `]]` | Jump between sections / functions                |
 
 ---
 
 ## Power Combos Seniors Use
 
-| Shortcut | What it does |
-|---|---|
-| `.` | **Repeat last change** — most powerful key in Vim |
-| `cgn` | Change next search match → `.` to repeat across file |
-| `yyt<` | Yank from cursor to next `<` (copy attribute value) |
-| `dt<` | Delete from cursor to next `<` |
-| `ct<` | Change from cursor to next `<` |
-| `gUiw` | Uppercase entire word (useful for CSS constants) |
-| `:%s/foo/bar/g` | Replace all in file — rename class globally |
-| `:%s/foo/bar/gc` | Same but confirm each replacement |
+| Shortcut         | What it does                                         |
+| ---------------- | ---------------------------------------------------- |
+| `.`              | **Repeat last change** — most powerful key in Vim    |
+| `cgn`            | Change next search match → `.` to repeat across file |
+| `yyt<`           | Yank from cursor to next `<` (copy attribute value)  |
+| `dt<`            | Delete from cursor to next `<`                       |
+| `ct<`            | Change from cursor to next `<`                       |
+| `gUiw`           | Uppercase entire word (useful for CSS constants)     |
+| `:%s/foo/bar/g`  | Replace all in file — rename class globally          |
+| `:%s/foo/bar/gc` | Same but confirm each replacement                    |
 
 ---
 
 ## LazyVim Leader Key Shortcuts (`<Space>`)
 
-| Shortcut | What it does |
-|---|---|
-| `<Space><Space>` | Recent files |
-| `<Space>/` | Grep in project |
-| `<Space>sf` | Telescope find files |
-| `<Space>ls` | Start Live Server (port 8080) |
-| `<Space>lx` | Stop Live Server |
+| Shortcut         | What it does                  |
+| ---------------- | ----------------------------- |
+| `<Space><Space>` | Recent files                  |
+| `<Space>/`       | Grep in project               |
+| `<Space>sf`      | Telescope find files          |
+| `<Space>ls`      | Start Live Server (port 8080) |
+| `<Space>lx`      | Stop Live Server              |
 
 ---
 
@@ -167,4 +167,4 @@ Cursor anywhere on a tag line:
 
 ---
 
-*Plugins required: emmet-language-server, nvim-surround, nvim-ts-autotag, nvim-treesitter*
+_Plugins required: emmet-language-server, nvim-surround, nvim-ts-autotag, nvim-treesitter_
